@@ -184,6 +184,8 @@
     <Content Include="Resources\MarioStand.png" />
     <None Include="Resources\New Super Mario Bros. Wii - Mini Mushroom Sound Effect.wav" />
     <None Include="Resources\RealBacground.png" />
+    <None Include="Resources\Microsoft Windows XP Error - Sound Effect %28HD%29.mp3" />
+    <None Include="Resources\wrong.wav" />
     <Content Include="Resources\realbubble.png" />
     <None Include="Resources\rainbow-effect2.png" />
     <None Include="Resources\Super Star.png" />
@@ -201,14 +203,14 @@
     </Content>
     <Content Include="Resources\howtoplay.jpg" />
     <Content Include="Resources\LebronJames.png" />
-    <Content Include="Resources\level3.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Resources\level2.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\level1.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\level3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\Super Mushroom.png" />
   </ItemGroup>

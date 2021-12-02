@@ -388,6 +388,16 @@ namespace BrickBreaker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Microsoft_Windows_XP_Error___Sound_Effect__HD_ {
+            get {
+                object obj = ResourceManager.GetObject("Microsoft_Windows_XP_Error___Sound_Effect__HD_", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Mini_Mushroom {
@@ -452,6 +462,15 @@ namespace BrickBreaker.Properties {
             get {
                 object obj = ResourceManager.GetObject("Super_Star", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wrong {
+            get {
+                return ResourceManager.GetStream("wrong", resourceCulture);
             }
         }
     }
